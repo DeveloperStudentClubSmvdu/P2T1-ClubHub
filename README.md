@@ -39,6 +39,10 @@ As we delved deeper into the issue, a recurring theme emerged: the absence of a 
 ## Contrbutors
 * [Aryan Jha](https://github.com/ajhaa-2709) :21bec108
 * [Abhay Jaiswal](https://github.com/abhayjaiswal8688) :23bec001
+* [Suyasha Andotra]() :23bec060
+* [Apiksha]() : 23bcs020
+
+* Mentor:[Riya](https://github.com/RR-08) : 20bcs070
 
 
 
