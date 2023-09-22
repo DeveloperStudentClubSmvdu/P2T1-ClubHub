@@ -8,7 +8,7 @@ As we delved deeper into the issue, a recurring theme emerged: the absence of a 
 * [Background](https://github.com/DeveloperStudentClubSmvdu/P2T1-ClubHub/edit/main/README.md#background)
 * [Technology Stack](https://github.com/DeveloperStudentClubSmvdu/P2T1-ClubHub/edit/main/README.md#technology-stack)
 * [Expected Outcome](https://github.com/DeveloperStudentClubSmvdu/P2T1-ClubHub/edit/main/README.md#expected-outcome)
-* [Contributors]()
+* [Contributors](https://github.com/DeveloperStudentClubSmvdu/ClubHub-Connect/edit/main/README.md#contributors)
 
 ## Introduction
 Thoughts are the mind, knowledge is the sail, and our body is the vessel. By fusing the core elements of SMVDU clubs with digitalization and technology, we aim to create a portal. A website that gives the students all the updates at their fingertips, so managing academics while finding an escape in the clubs becomes almost effortless
