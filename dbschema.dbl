@@ -1,0 +1,67 @@
+TABLE users {
+    user_id INTEGER PK 
+    username VARCHAR   
+    password_hash VARCHAR   
+    email VARCHAR      
+    full_name VARCHAR    
+    is_admin BOOLEAN  
+
+}
+
+TABLE clubs {
+    club_id INTEGER   PK 
+    club_name VARCHAR    
+    description TEXT 
+    contact_person INTEGER  
+
+}
+
+TABLE events {
+    event_id INTEGER   PK 
+    event_name VARCHAR    
+    description TEXT 
+    start_datetime DATETIME 
+    end_datetime DATETIME 
+    club_id INTEGER  
+    
+}
+
+ TABLE user_clubs {
+    user_club_id INTEGER   PK 
+    user_id INTEGER 
+    club_id INTEGER  
+    join_date DATETIME
+}
+
+
+TABLE notifications {
+    notification_id INTEGER   PK 
+    user_id INTEGER  
+    message TEXT 
+    created_at DATETIME
+}
+
+
+TABLE forum_posts{
+    post_id INTEGER   PK 
+    thread_id INTEGER 
+    user_id INTEGER 
+    message TEXT 
+    created_at DATETIME
+}
+
+TABLE resources{
+    resource_id INTEGER   PK 
+    club_id INTEGER  
+    title VARCHAR    
+    description TEXT 
+    file_url VARCHAR   
+    uploaded_by INTEGER  
+    upload_date DATETIME
+}
+TABLE admin_activity_log {
+    log_id INTEGER   PK 
+    admin_user_id INTEGER  
+    activity_description TEXT 
+    activity_date DATETIME
+}
