@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 1be36cc848d9efd655108c0fb5367ab26ed60783
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -119,16 +115,16 @@ Background-size: cover;
 Border-radius: 15px 15px 0px 0px;
 }
 .img-1 {
-background-image: url('img/code club.jpeg');
+background-image: url('../img/code\ club.jpeg');
 }
 .img-2 {
-background-image:url('img/drama.jpeg');
+background-image:url('../img/drama.jpeg');
 }
 .img-3 {
-Background-image:url('img/animation.jpeg');
+Background-image:url('../img/animation.jpeg');
 }
 .img-4 {
-Background-image:url('img/dance.jpeg');
+Background-image:url('../img/dance.jpeg');
 }
 .card:hover {
 Background-color: black;
@@ -139,7 +135,7 @@ Transition:all 1s ease;
 }
 #events {
     Margin:55px 0px 0px 0px;
-    background-image: url('img/dil.jpeg');
+    background-image: url('../img/dil.jpeg');
     padding: 60px 0;
     text-align: center;
 }
@@ -189,11 +185,7 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-<<<<<<< HEAD
 
-/* Responsive styles for smaller screens */
-=======
->>>>>>> 1be36cc848d9efd655108c0fb5367ab26ed60783
 @media (max-width: 768px) {
     header {
         padding: 10px 0;
