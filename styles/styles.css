@@ -42,10 +42,8 @@ nav a {
     color: #fff;
     font-weight: bold;
 }
-
-/* Style the hero section */
 #hero {
-    background-image: url('../img/download.jpeg'); 
+    background-image: url('../img/smvdu.svg'); 
     background-size: cover;
     background-position: center;
     color: #fff;
