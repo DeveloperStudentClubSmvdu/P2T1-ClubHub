@@ -1,18 +1,14 @@
-/* Reset some default styles for better cross-browser consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Apply a background color and text styles to the entire page */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
 }
 
-/* Style the header with navigation */
 header {
     background-color: #333;
     color: #fff;
@@ -49,7 +45,7 @@ nav a {
 
 /* Style the hero section */
 #hero {
-    background-image: url('../img/download.jpeg'); /* Replace with your image URL */
+    background-image: url('../img/download.jpeg'); 
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -82,7 +78,6 @@ nav a {
     border-radius: 5px;
 }
 
-/* Style the about section */
 #about {
     background-color: #fff;
     padding: 60px 0;
@@ -103,11 +98,46 @@ nav a {
     font-size: 16px;
     line-height: 1.5;
 }
+.container{
+Display: flex
 
-/* Style the events section */
+}
+.card {
+Background:#72aee6;
+Margin:10px;
+Height:300px;
+Width:500px;
+Border-radius: 15px;
+}
+.card-image {
+Background-color: Gray 30;
+Height: 250px;
+Margin-bottom:20px;
+Background-size: cover;
+Border-radius: 15px 15px 0px 0px;
+}
+.img-1 {
+background-image: url('img/code club.jpeg');
+}
+.img-2 {
+background-image:url('img/drama.jpeg');
+}
+.img-3 {
+Background-image:url('img/animation.jpeg');
+}
+.img-4 {
+Background-image:url('img/dance.jpeg');
+}
+.card:hover {
+Background-color: black;
+Cursor:pointer;
+Color:white;
+transform: scale(1.03);
+Transition:all 1s ease;
+}
 #events {
- background-image: url('img/dil.jpeg');
-    background-color: #f2f2f2;
+    Margin:50px 0px 0px 0px;
+    background-image: url('img/dil.jpeg');
     padding: 60px 0;
     text-align: center;
 }
@@ -131,7 +161,6 @@ nav a {
     margin-bottom: 10px;
 }
 
-/* Style the contact section */
 #contact {
     background-color: #fff;
     padding: 60px 0;
@@ -152,16 +181,12 @@ nav a {
     font-size: 16px;
     line-height: 1.5;
 }
-
-/* Style the footer */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
-
-/* Responsive styles for smaller screens (adjust as needed) */
 @media (max-width: 768px) {
     header {
         padding: 10px 0;
