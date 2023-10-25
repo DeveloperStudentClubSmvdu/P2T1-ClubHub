@@ -136,7 +136,7 @@ transform: scale(1.03);
 Transition:all 1s ease;
 }
 #events {
-    Margin:50px 0px 0px 0px;
+    Margin:55px 0px 0px 0px;
     background-image: url('img/dil.jpeg');
     padding: 60px 0;
     text-align: center;
