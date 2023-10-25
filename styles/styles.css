@@ -49,7 +49,7 @@ nav a {
 
 /* Style the hero section */
 #hero {
-    background-image: url('img/download.jpeg'); /* Replace with your image URL */
+    background-image: url('../img/download.jpeg'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
     color: #fff;
