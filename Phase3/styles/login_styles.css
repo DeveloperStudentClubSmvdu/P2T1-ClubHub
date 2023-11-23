@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Class Selectors */
+
+.left-section {
+    background-image: url(../img/smvdu.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.body-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clubhub {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.3rem;
+    background: linear-gradient(45deg, #ebbc66, #81eb81);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.full-length{
+    height:100vh;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 1rem;
+}
+
+.right-section {
+    background-color: #e3e8ed;
+    font-family: 'Helvetica';
+}
+
+.form-container {
+    text-align: center;
+    padding: 3rem;
+    padding-top: 20%;
+    margin: 0;
+}
+
+.login {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.bottom-border-input {
+    border: none;
+    border-bottom: 2px solid blue;
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    background-color: #e3e8ed;
+}
+
+.login-button {
+    width: 60%;
+    background: linear-gradient(135deg, #0056b3, #003b7b);
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 13px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.or_text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.register-button {
+    width: 60%;
+    background: linear-gradient(135deg, #0056b3, #003b7b);
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 13px;
+    cursor: pointer;
+}
+/* Tag selectors */
+img {
+    height: 180px;
+    width: 210px;
+}
+
+h1 {
+    margin-top: 2.5rem;
+}
+
+h2 {
+    color: #0f457e;
+}
+
+@media (max-width:786px){
+    img{
+        height:80px;
+        width:auto;
+    }
+   .login-container{
+    flex-direction:column;
+    align-items:center;
+    width:100vw;
+    }
+    .body-center{
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+    .left-section{
+        display: flex;
+        flex-direction:column;
+        height: 30vh;
+        font-size:10px;
+    }
+    .right-section{
+        padding:20px;
+        padding-top:10px;
+    }
+    .form-container{
+        padding: 5%;
+    }
+    .footer-text{
+        opacity:0;
+    }
+    .gradient-text{
+        opacity:0;
+    }
+   
+
+}
