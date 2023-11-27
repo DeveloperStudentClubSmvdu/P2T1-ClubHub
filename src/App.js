@@ -1,7 +1,6 @@
 import React from "react";
 import ClubCards from './Components/clubCard';
 import EventCardForm from './Components/Events';
-import Profile from './Components/Profile'
 import EventCard from './Components/EventCard'
 import Feed from './Components/Feed'
 import NavBar from "./Components/Navbar";

@@ -1,11 +1,9 @@
-// Feed.js
 import React from 'react';
 import './Feed.css';
 
 const posts = [
   { content: 'Hello, this is my first post!', author: 'John Doe' },
-  { content: 'Excited to learn React!', author: 'Jane Smith' },
-  // Add more posts as needed
+  { content: 'Excited to learn React!', author: 'Jane Smith' }
 ];
 
 const Feed = () => {

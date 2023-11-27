@@ -1,4 +1,3 @@
-// EventCard.js
 import React from 'react';
 import './EventCard.css';
 

@@ -9,17 +9,14 @@ const EventCardForm = ({ onAddEvent }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Create a new event object
     const newEvent = {
       name: eventName,
       date: eventDate,
       description: eventDescription,
     };
 
-    // Pass the new event to the parent component
     onAddEvent(newEvent);
 
-    // Clear the form fields
     setEventName('');
     setEventDate('');
     setEventDescription('');
