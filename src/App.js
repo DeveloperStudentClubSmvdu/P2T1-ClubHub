@@ -31,12 +31,6 @@ function MyApp() {
 
       <Feed />
 
-      <section className="contain">
-        <Profile name='Apiksha'
-        bio='I am a computer science student passionate about coding and building web applications.' 
-        profilePicture="https://tse3.mm.bing.net/th?id=OIP.JAAd31mxF33HqZEgYq9zgAHaHv&pid=Api&P=0&h=180"
-        />
-      </section>
 
       <Footer />
       
