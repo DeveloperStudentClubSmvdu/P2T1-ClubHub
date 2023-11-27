@@ -1,0 +1,64 @@
+/* Events.css */
+
+.event-form {
+    background: url('../Assets/Create-Event-Img.png') center center no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+  }
+
+ .create-event{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  h3{
+    color: #333;
+    font-size: 2.4rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 3.4rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #183749 ;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(75, 131, 145);
+  }
+  

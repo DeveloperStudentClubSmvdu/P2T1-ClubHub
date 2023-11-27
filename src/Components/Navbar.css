@@ -1,0 +1,44 @@
+/* Navbar.css */
+
+nav {
+    background: linear-gradient(45deg, #526D82,#9DB2BF,  #DDE6ED);
+    color: transparent;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    font-weight: 900;
+    color: rgb(21, 21, 62);
+    text-decoration: none;
+    
+    padding: 0.5rem 1rem;
+    
+  }
+  
+  a:hover {
+    font-weight: 900;
+    color: #0c1c28;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  

@@ -1,0 +1,38 @@
+/* Profile.css */
+
+.profile-section {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-bio {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-details li {
+  margin-bottom: 8px;
+}
